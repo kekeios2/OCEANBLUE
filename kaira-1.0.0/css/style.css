@@ -1,0 +1,270 @@
+body {
+  --heading-font: "Marcellus", Roboto, sans-serif;
+  --heading-font-weight: 400;
+  --heading-color: #111;
+  --heading-line-height: 1.24;
+
+  --swiper-theme-color: #8c907e;
+
+  /* bootstrap */
+  --bs-body-font-family: "Jost", Roboto, sans-serif;
+  --bs-body-font-size: 18px;
+  --bs-body-font-weight: 400;
+  --bs-body-line-height: 1.5;
+  --bs-body-color: #8f8f8f;
+  --bs-body-color-rgb: 143, 143, 143;
+
+  --bs-primary: #8c907e;
+  --bs-secondary: #6c757d;
+  --bs-black: #111;
+  --bs-light: #f1f1f0;
+  --bs-dark: #212529;
+  --bs-gray: #9aa1a7;
+  --bs-gray-dark: #51565b;
+
+  --bs-primary-rgb: 140, 144, 126;
+  --bs-secondary-rgb: 108, 117, 125;
+  --bs-black-rgb: 17, 17, 17;
+  --bs-light-rgb: 241, 241, 240;
+  --bs-dark-rgb: 33, 37, 41;
+
+  --bs-link-color: #111;
+  --bs-link-color-rgb: 17, 17, 17;
+  --bs-link-decoration: underline;
+  --bs-link-hover-color: #111;
+  --bs-link-hover-color-rgb: 17, 17, 17;
+}
+
+body {
+  letter-spacing: 0.03rem;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  font-family: var(--heading-font);
+  font-weight: var(--heading-font-weight);
+  color: var(--heading-color);
+  line-height: var(--heading-line-height);
+}
+
+h1.light,
+.h1,
+h2.light,
+.h2,
+h3.light,
+.h3,
+h4.light,
+.h4,
+h5.light,
+.h5,
+h6.light,
+.h6 {
+  color: var(--light-color);
+}
+
+h1,
+h2,
+h3 {
+  margin: 25px 0;
+}
+
+h5,
+h6 {
+  letter-spacing: 1px;
+}
+
+h1,
+.h1 {
+  font-size: 4.5rem;
+}
+
+h2,
+.h2 {
+  font-size: 3.6rem;
+}
+
+h3,
+.h3 {
+  font-size: 2.8rem;
+}
+
+h4,
+.h4 {
+  font-size: 1.8rem;
+}
+
+h5,
+.h5 {
+  font-size: 1.4rem;
+}
+
+h6,
+.h6 {
+  font-size: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* container fluid */
+.container-fluid {
+  /* width: 98%; */
+  max-width: 1800px;
+}
+
+/* form control */
+.form-control:focus {
+  border-color: #ccc;
+  box-shadow: 0 0 0 0.25rem rgba(200, 200, 200, 0.25);
+}
+/* end of Bootstrap Color Theme */
+
+/* navbar */
+.navbar.fixed-top {
+  transition: background-color 0.6s ease-out;
+}
+
+.testimonials .section-title {
+  font-size: 1em;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.testimonials .review-title {
+  font-size: 14px;
+}
+
+.nav-link {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+#calculate-btn {
+  background-color: #e1d7ce !important;
+}
+.cart-btn {
+  border-radius: 8px;
+  padding: 6px;
+  border: none;
+  color: #8c907e; /* اللون الأساسي للنص */
+  border: none;
+}
+
+.cart-btn i {
+  transition: color 0.3s ease; /* تأثير الانتقال لتغيير اللون */
+}
+
+.cart-btn:hover i {
+  color: #e1d7ce; /* اللون الجديد عند التمرير */
+}
+.img-fluid {
+  max-width: 80%;
+}
+#calculate-btn {
+  border: none;
+}
+
+#calculate-btn:hover {
+  background-color: #aaa29b !important; /* اللون الجديد عند التمرير */
+}
+
+/* Table Styling */
+.styled-table {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: "Arial", sans-serif;
+  margin: 20px 0;
+}
+
+.styled-table thead {
+  background-color: #e1d7ce;
+  color: white;
+  font-weight: bold;
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 12px 15px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.styled-table tbody tr {
+  background-color: #f9f9f9;
+  transition: background-color 0.3s ease;
+}
+
+.styled-table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Highlight Row */
+.styled-table tbody tr.highlight {
+  background-color: #e1d7ce;
+  color: white;
+  font-weight: bold;
+}
+#small-row td {
+  color :#867d7d;
+}
+#medium-row td {
+  color :#867d7d;
+}
+#large-row td {
+  color :#867d7d;
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #e1d7ce;
+  color: #111;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.footer h5 {
+  font-family: "Marcellus", serif;
+  font-weight: 400;
+  color: #111;
+  margin-bottom: 1rem;
+}
+
+.footer p,
+.footer ul {
+  font-family: "Jost", sans-serif;
+  font-size: 16px;
+  color: #8f8f8f;
+}
+
+.footer a {
+  color: #8f8f8f;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: #8c907e;
+}
+
+.footer .fa-lg {
+  font-size: 1.5rem;
+  color: #8c907e;
+  transition: color 0.3s ease;
+}
+
+.footer .fa-lg:hover {
+  color: #6c757d;
+}

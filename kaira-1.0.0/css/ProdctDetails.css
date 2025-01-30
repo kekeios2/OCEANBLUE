@@ -1,0 +1,275 @@
+/* CSS Theme */
+body {
+  --heading-font: "Marcellus", Roboto, sans-serif;
+  --heading-font-weight: 400;
+  --heading-color: #111;
+  --heading-line-height: 1.24;
+
+  --swiper-theme-color: #8c907e;
+
+  /* bootstrap */
+  --bs-body-font-family: "Jost", Roboto, sans-serif;
+  --bs-body-font-size: 18px;
+  --bs-body-font-weight: 400;
+  --bs-body-line-height: 1.5;
+  --bs-body-color: #8f8f8f;
+  --bs-body-color-rgb: 143, 143, 143;
+
+  --bs-primary: #8c907e;
+  --bs-secondary: #6c757d;
+  --bs-black: #111;
+  --bs-light: #f1f1f0;
+  --bs-dark: #212529;
+  --bs-gray: #9aa1a7;
+  --bs-gray-dark: #51565b;
+
+  --bs-primary-rgb: 140, 144, 126;
+  --bs-secondary-rgb: 108, 117, 125;
+  --bs-black-rgb: 17, 17, 17;
+  --bs-light-rgb: 241, 241, 240;
+  --bs-dark-rgb: 33, 37, 41;
+
+  --bs-link-color: #111;
+  --bs-link-color-rgb: 17, 17, 17;
+  --bs-link-decoration: underline;
+  --bs-link-hover-color: #111;
+  --bs-link-hover-color-rgb: 17, 17, 17;
+
+  letter-spacing: 0.03rem;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  font-family: var(--heading-font);
+  font-weight: var(--heading-font-weight);
+  color: var(--heading-color);
+  line-height: var(--heading-line-height);
+}
+
+h1.light,
+.h1,
+h2.light,
+.h2,
+h3.light,
+.h3,
+h4.light,
+.h4,
+h5.light,
+.h5,
+h6.light,
+.h6 {
+  color: var(--light-color);
+}
+
+h1,
+h2,
+h3 {
+  margin: 25px 0;
+}
+
+h5,
+h6 {
+  letter-spacing: 1px;
+}
+
+h1,
+.h1 {
+  font-size: 4.5rem;
+}
+
+h2,
+.h2 {
+  font-size: 3.6rem;
+}
+
+h3,
+.h3 {
+  font-size: 2.8rem;
+}
+
+h4,
+.h4 {
+  font-size: 1.8rem;
+}
+
+h5,
+.h5 {
+  font-size: 1.4rem;
+}
+
+h6,
+.h6 {
+  font-size: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* container fluid */
+.container-fluid {
+  max-width: 1800px;
+}
+
+/* form control */
+.form-control:focus {
+  border-color: #ccc;
+  box-shadow: 0 0 0 0.25rem rgba(200, 200, 200, 0.25);
+}
+
+/* navbar */
+.navbar.fixed-top {
+  transition: background-color 0.6s ease-out;
+}
+
+.testimonials .section-title {
+  font-size: 1em;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.testimonials .review-title {
+  font-size: 14px;
+}
+
+.nav-link {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+#calculate-btn {
+  background-color: #e1d7ce !important;
+}
+
+.cart-btn {
+  border-radius: 8px;
+  padding: 6px;
+  border: none;
+  color: #8c907e;
+}
+
+.cart-btn i {
+  transition: color 0.3s ease;
+}
+
+.cart-btn:hover i {
+  color: #e1d7ce;
+}
+
+.img-fluid {
+  max-width: 80%;
+}
+
+#calculate-btn {
+  border: none;
+}
+
+#calculate-btn:hover {
+  background-color: #aaa29b !important;
+}
+
+/* Table Styling */
+.styled-table {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: "Arial", sans-serif;
+  margin: 20px 0;
+}
+
+.styled-table thead {
+  background-color: #e1d7ce;
+  color: white;
+  font-weight: bold;
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 12px 15px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.styled-table tbody tr {
+  background-color: #f9f9f9;
+  transition: background-color 0.3s ease;
+}
+
+.styled-table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Highlight Row */
+.styled-table tbody tr.highlight {
+  background-color: #e1d7ce;
+  color: white;
+  font-weight: bold;
+}
+
+#small-row td {
+  color: #867d7d;
+}
+
+#medium-row td {
+  color: #867d7d;
+}
+
+#large-row td {
+  color: #867d7d;
+}
+
+/* Product Details Page Specific Styles */
+#product-details {
+  padding: 50px 0;
+}
+
+#product-details h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+#product-details p {
+  font-size: 1.2rem;
+  color: var(--bs-body-color);
+}
+
+#product-details .cart-btn {
+  margin-top: 20px;
+  background-color: var(--bs-primary);
+  color: white;
+  padding: 10px 20px;
+  font-size: 1rem;
+}
+
+#product-details .cart-btn:hover {
+  background-color: var(--bs-secondary);
+}
+
+/* Swiper Styles */
+.swiper {
+  width: 100%;
+  height: 400px;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
